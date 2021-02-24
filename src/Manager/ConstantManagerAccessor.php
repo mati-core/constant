@@ -3,12 +3,12 @@
 declare(strict_types=1);
 
 
-namespace MatiCore\Core\Constant;
+namespace MatiCore\Constant;
 
 
 /**
  * Interface ConstantManagerAccessor
- * @package MatiCore\Core\Constant
+ * @package MatiCore\Constant
  */
 interface ConstantManagerAccessor
 {

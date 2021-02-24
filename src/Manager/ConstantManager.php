@@ -3,17 +3,17 @@
 declare(strict_types=1);
 
 
-namespace MatiCore\Core\Constant;
+namespace MatiCore\Constant;
 
 use Baraja\Doctrine\EntityManager;
 use Baraja\Doctrine\EntityManagerException;
 use Doctrine\ORM\NonUniqueResultException;
 use Doctrine\ORM\NoResultException;
-use MatiCore\Core\Constant\Exception\ConstantException;
+use MatiCore\Constant\Exception\ConstantException;
 
 /**
  * Class ConstantManager
- * @package MatiCore\Core\Constant
+ * @package MatiCore\Constant
  */
 class ConstantManager
 {

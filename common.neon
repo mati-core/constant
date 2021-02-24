@@ -1,3 +1,7 @@
+orm.annotations:
+	paths:
+		MatiCore\User: %appDir%/../vendor/mati-core/constant/src/Entity
+
 services:
-	- MatiCore\Core\Constant\ConstantManager
-	- MatiCore\Core\Constant\ConstantManagerAccessor
+	- MatiCore\Constant\ConstantManager
+	- MatiCore\Constant\ConstantManagerAccessor

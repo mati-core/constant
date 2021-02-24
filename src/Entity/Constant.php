@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MatiCore\Core\Constant;
+namespace MatiCore\Constant;
 
 
 use Baraja\Doctrine\UUID\UuidIdentifier;
@@ -12,7 +12,7 @@ use Nette\Utils\DateTime;
 
 /**
  * Class Constant
- * @package MatiCore\Core\Constant
+ * @package MatiCore\Constant
  * @ORM\Entity()
  * @ORM\Table(name="core__constant")
  */

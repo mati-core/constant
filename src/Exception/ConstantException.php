@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace MatiCore\Core\Constant\Exception;
+namespace MatiCore\Constant\Exception;
 
 
 /**
  * Class ConstantException
- * @package MatiCore\Core\Constant\Exception
+ * @package MatiCore\Constant\Exception
  */
 class ConstantException extends \Exception
 {
