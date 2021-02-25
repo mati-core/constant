@@ -1,6 +1,6 @@
 orm.annotations:
 	paths:
-		MatiCore\User: %appDir%/../vendor/mati-core/constant/src/Entity
+		MatiCore\Constant: %appDir%/../vendor/mati-core/constant/src/Entity
 
 services:
 	- MatiCore\Constant\ConstantManager
