@@ -91,7 +91,7 @@ class ConstantManager
 
 			$this->entityManager
 				->persist($constant)
-				->flush($constant);
+				->getUnitOfWork()->commit($constant);
 		} catch (NonUniqueResultException $e) {
 			ConstantException::duplicateConstant($name, $namespace);
 		}
@@ -117,7 +117,7 @@ class ConstantManager
 		$constant = $this->temp[$key] ?? $this->load($name, $namespace);
 		$constant->setValue($value);
 
-		$this->entityManager->flush($constant);
+		$this->entityManager->getUnitOfWork()->commit($constant);
 	}
 
 	/**
